@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Unbounded:wght@200..900&display=swap');
+body{
+    margin: 0;
+    font-family: "Unbounded", sans-serif; 
+    background-color: black;
+}
+header{
+    height: 123px;
+    display: flex;
+    align-items: stretch;
+    /* padding: 0 20%; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+header a{
+    margin-right: 90px;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-style: re;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    position: relative;
+    left: 7.32421875%;
+}
+nav :hover{
+    color: #FF8A00;
+    text-decoration: underline #FF8A00;
+}
+footer{
+    height: 81px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 55px;
+    margin: 17px;
+    color: white;
+    align-items: center;
+}
+footer p{
+    position: absolute;
+    left: 87%;
+    display: flex;
+    align-self: center;
+}
+main{
+    background-image: url(images/Альбомы+Фон.png);
+    background-repeat: no-repeat;
+    height: 3469px;
+    background-size: cover;
+}
+main img{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 40px;
+}
+.other{
+    width: 130px;
+    height: 130px;
+    gap: 70px;
+    
+}
+.vk{
+    height: 45px;
+    width: 170px;
+    gap: 70px;
+    
+}

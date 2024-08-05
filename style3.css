@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Unbounded:wght@200..900&display=swap');
 body{
-    margin: 0;
-    font-family: "Unbounded", sans-serif; 
+    margin: 0; 
     background-color: black;
 }
 header{
     height: 123px;
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
     /* padding: 0 20%; */
     justify-content: space-between;
     flex-direction: row;
+    font-family: "Unbounded", sans-serif;
 }
 header a{
     margin-right: 90px;
@@ -41,6 +41,7 @@ footer{
     margin: 17px;
     color: white;
     align-items: center;
+    font-family: "Unbounded", sans-serif;
 }
 footer p{
     position: absolute;
@@ -49,26 +50,40 @@ footer p{
     align-self: center;
 }
 main{
-    background-image: url(images/Альбомы+Фон.png);
-    background-repeat: no-repeat;
-    height: 3469px;
-    background-size: cover;
-}
-main img{
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+   align-items: center;
+   padding: 125px 0;
+   background-color: #373636;
+} 
+.item{
     display: flex;
-    align-items: stretch;
-    justify-content: space-around;
-    padding: 40px;
+    padding: 32px 35px;
+    border: 10px solid #000000;
+    border-radius: 50px;
+    width: max-content;
+    gap: 54px;
 }
-.other{
-    width: 130px;
-    height: 130px;
-    gap: 70px;
-    
+.item>img{
+    border: 7px solid #000000;
+    border-radius: 45px;
 }
-.vk{
-    height: 45px;
-    width: 170px;
+.item-info{
+    display: flex;
+    flex-direction: column;
+}
+.item-info>p{
+    font-family: Cuprum, sans-serif;
+    font-size: 58px;
+    font-style: bold;
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000000;
+}
+.item-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 70px;
-    
 }

@@ -89,3 +89,21 @@ main{
      justify-content: space-between;
      gap: 70px;
  }
+ .bolt {
+    background: linear-gradient(94.95deg, #33503D 30.71%, #D64C27 98.71%);
+}
+.days {
+    background: linear-gradient(94.95deg, #555555 30.71%, #B6A1A0 98.71%);
+}
+.russia {
+    background: linear-gradient(95.9deg, rgba(132, 52, 28, 0.55) 7.59%, #F7CE8B 98.68%);
+}
+.plague {
+    background: linear-gradient(94.95deg, #555555 30.71%, #90351F 98.71%);
+}
+.songs {
+    background: linear-gradient(94.95deg, rgba(204, 224, 245, 0.55) 30.71%, #525CA5 98.71%);
+}
+.izh {
+    background: linear-gradient(94.95deg, rgba(0, 163, 163, 0.3) 30.71%, #0080BA 98.71%);
+}

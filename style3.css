@@ -87,3 +87,27 @@ main{
     justify-content: space-between;
     gap: 70px;
 }
+.bolt {
+    background: linear-gradient(94.57deg, #555555 33.23%, rgba(255, 155, 38, 0.55) 98.72%);
+}
+.days {
+    background: linear-gradient(275.64deg, #F28636 1.03%, #555555 70.73%);
+}
+.russia {
+    background: linear-gradient(275.64deg, #006578 1.03%, #555555 70.73%);
+}
+.plague {
+    background: linear-gradient(275.64deg, #FBA5C2 1.03%, #555555 70.73%);
+}
+.songs {
+    background: linear-gradient(275.64deg, #7C4F16 1.03%, #555555 70.73%);
+}
+.izh {
+    background: linear-gradient(275.64deg, #083035 1.03%, #555555 70.73%);
+}
+.russiandream {
+    background: linear-gradient(275.64deg, #D8320B 1.03%, #555555 70.73%);
+}
+.ministerstvo {
+    background: linear-gradient(275.64deg, #702E18 1.03%, #555555 70.73%);
+}
